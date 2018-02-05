@@ -7,4 +7,4 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files)
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 LOCAL_PACKAGE_NAME := LineageDarkTheme
 
-include $(BUILD_RRO_PACKAGE)
+include $(BUILD_PACKAGE)
