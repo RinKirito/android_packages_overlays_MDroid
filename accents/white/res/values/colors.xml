@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (c) 2018, The LineageOS Project
 
@@ -13,14 +14,12 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.carbonrom.neutrum"
-    android:versionCode="1"
-    android:versionName="1.0">
-
-    <overlay
-        android:targetPackage="android"
-        android:priority="1" />
-
-    <application android:hasCode="false" />
-</manifest>
+<resources>
+    <color name="accent_device_default_700">#FAFAFA</color>
+    <color name="accent_device_default_dark">#FAFAFA</color>
+    <color name="accent_device_default_light">#FAFAFA</color>
+    <color name="material_deep_teal_200">#FAFAFA</color>
+    <color name="material_deep_teal_500">#FAFAFA</color>
+    <color name="notification_icon_bg_color">#FAFAFA</color>
+    <color name="system_notification_accent_color">#FAFAFA</color>
+</resources>

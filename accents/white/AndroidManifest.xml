@@ -14,7 +14,7 @@
     limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.carbonrom.neutrum"
+    package="org.lineageos.overlay.accent.white"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -22,5 +22,16 @@
         android:targetPackage="android"
         android:priority="1" />
 
-    <application android:hasCode="false" />
+    <application
+        android:hasCode="false"
+        android:label="@*android:string/accent_white">
+
+        <meta-data
+            android:name="carbon_theme_accent_preview"
+            android:value="#212121" />
+
+        <meta-data
+            android:name="carbon_theme_accent_supported_styles"
+            android:value="dark" />
+    </application>
 </manifest>
