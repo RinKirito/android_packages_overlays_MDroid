@@ -2,6 +2,11 @@
     <!-- Resolver -->
     <color name="resolver_list_bg">@*android:color/black</color>
 
+    <!-- Immersive cling -->
+    <color name="immersive_cling_bg_color">@*android:color/black</color>
+    <color name="immersive_cling_text_color">@android:color/white</color>
+    <color name="immersive_cling_button_text_color">@android:color/white</color>
+
     <!-- Color Constants -->
     <color name="theme_text1">#FFE5E5E5</color> <!-- text primary -->
     <color name="theme_text2">#B3E5E5E5</color>  <!-- text secondary -->
