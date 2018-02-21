@@ -27,7 +27,7 @@
         android:label="@*android:string/accent_blue">
 
         <meta-data
-            android:name="carbon_theme_accent_preview"
+            android:name="elixir_theme_accent_preview"
             android:value="#3F51B5" />
     </application>
 </manifest>

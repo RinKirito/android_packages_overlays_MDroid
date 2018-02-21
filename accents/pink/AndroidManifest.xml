@@ -27,7 +27,7 @@
         android:label="@*android:string/accent_pink">
 
         <meta-data
-            android:name="carbon_theme_accent_preview"
+            android:name="elixir_theme_accent_preview"
             android:value="#E91E63" />
     </application>
 </manifest>
