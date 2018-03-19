@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors for the notification actions -->
+    <color name="notification_action_accept">#ff4caf50</color>
+    <color name="notification_action_dismiss">#fff44336</color>
+</resources>
