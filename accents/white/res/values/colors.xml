@@ -22,4 +22,5 @@
     <color name="material_deep_teal_500">#FAFAFA</color>
     <color name="notification_icon_bg_color">#FAFAFA</color>
     <color name="system_notification_accent_color">#FAFAFA</color>
+    <color name="settings_icon_tint_color">#FAFAFA</color>
 </resources>
