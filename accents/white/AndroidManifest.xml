@@ -28,7 +28,7 @@
 
         <meta-data
             android:name="elixir_theme_accent_preview"
-            android:value="#212121" />
+            android:value="#e5e5e5" />
 
         <meta-data
             android:name="elixir_theme_accent_supported_styles"
