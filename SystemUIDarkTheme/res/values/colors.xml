@@ -1,0 +1,4 @@
+<resources>
+    <!-- QS edit page background color -->
+    <color name="qs_edit_item_decoration_bg">@*android:color/background_floating_material_dark</color>
+</resources>

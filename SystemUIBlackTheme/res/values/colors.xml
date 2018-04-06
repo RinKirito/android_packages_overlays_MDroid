@@ -1,0 +1,4 @@
+<resources>
+    <!-- QS edit page background color -->
+    <color name="qs_edit_item_decoration_bg">@*android:color/black</color>
+</resources>
