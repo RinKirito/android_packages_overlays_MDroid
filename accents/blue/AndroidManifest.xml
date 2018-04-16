@@ -14,7 +14,7 @@
     limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="mx.elixir.accent.blue"
+    package="mx.mdroid.accent.blue"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -27,7 +27,7 @@
         android:label="@*android:string/accent_blue">
 
         <meta-data
-            android:name="elixir_theme_accent_preview"
+            android:name="mdroid_theme_accent_preview"
             android:value="#3F51B5" />
     </application>
 </manifest>

@@ -14,7 +14,7 @@
     limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="mx.elixir.accent.black"
+    package="mx.mdroid.accent.black"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -27,11 +27,11 @@
         android:label="@*android:string/accent_black">
 
         <meta-data
-            android:name="elixir_theme_accent_preview"
+            android:name="mdroid_theme_accent_preview"
             android:value="#212121" />
 
         <meta-data
-            android:name="elixir_theme_accent_supported_styles"
+            android:name="mdroid_theme_accent_supported_styles"
             android:value="light" />
     </application>
 </manifest>
