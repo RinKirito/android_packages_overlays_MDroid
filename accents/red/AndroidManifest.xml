@@ -28,6 +28,6 @@
 
         <meta-data
             android:name="mdroid_theme_accent_preview"
-            android:value="#F44336" />
+            android:value="#f44336" />
     </application>
 </manifest>

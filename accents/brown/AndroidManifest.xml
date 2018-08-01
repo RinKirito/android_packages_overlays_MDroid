@@ -18,10 +18,9 @@
     android:versionCode="1"
     android:versionName="1.0">
 
-        <overlay
-            android:targetPackage="android"
-            android:label="@*android:string/accent_brown"
-            android:priority="1" />
+    <overlay
+        android:targetPackage="android"
+        android:priority="1" />
 
     <application
         android:hasCode="false"

@@ -15,12 +15,14 @@
     limitations under the License.
 -->
 <resources>
-    <color name="accent_device_default_700">#3367d6</color>
-    <color name="accent_device_default_dark">#3367d6</color>
-    <color name="accent_device_default_light">#3367d6</color>
-    <color name="material_deep_teal_200">#3367d6</color>
-    <color name="material_deep_teal_500">#3367d6</color>
-    <color name="notification_icon_bg_color">#3367d6</color>
-    <color name="system_notification_accent_color">#3367d6</color>
-    <color name="settings_icon_tint_color">#3367d6</color>
+    <color name="accent_device_default_dark">#3F51B5</color>
+    <color name="accent_device_default_light">#3F51B5</color>
+    <color name="material_deep_teal_100">#C5CAE9</color>
+    <color name="material_deep_teal_200">#9FA8DA</color>
+    <color name="material_deep_teal_300">#7986CB</color>
+    <color name="material_deep_teal_500">#3F51B5</color>
+    <color name="material_deep_teal_700">#303F9F</color>
+    <color name="notification_icon_bg_color">#3F51B5</color>
+    <color name="system_notification_accent_color">#3F51B5</color>
+    <color name="settings_icon_tint_color">#3F51B5</color>
 </resources>

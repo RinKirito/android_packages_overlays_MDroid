@@ -14,7 +14,7 @@
     limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="mx.mdroid.accent.forest"
+    package="mx.mdroid.accent.grey_blue"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -24,10 +24,10 @@
 
     <application
         android:hasCode="false"
-        android:label="@*android:string/accent_forest">
+        android:label="@*android:string/accent_grey_blue">
 
         <meta-data
             android:name="mdroid_theme_accent_preview"
-            android:value="#4CAF50" />
+            android:value="#607D8B" />
     </application>
 </manifest>

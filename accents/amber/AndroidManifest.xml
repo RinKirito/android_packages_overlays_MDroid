@@ -14,7 +14,7 @@
     limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="mx.mdroid.accent.pixel"
+    package="mx.mdroid.accent.amber"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -24,10 +24,10 @@
 
     <application
         android:hasCode="false"
-        android:label="@*android:string/accent_pixel">
+        android:label="@*android:string/accent_amber">
 
         <meta-data
             android:name="mdroid_theme_accent_preview"
-            android:value="#3367d6" />
+            android:value="#FFC107" />
     </application>
 </manifest>
