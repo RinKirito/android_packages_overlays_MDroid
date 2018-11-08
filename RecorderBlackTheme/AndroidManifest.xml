@@ -5,7 +5,8 @@
 
     <overlay
         android:targetPackage="org.lineageos.recorder"
-        android:priority="1"/>
+        android:priority="1"
+        android:category="android.theme.black"/>
 
     <application android:label="@string/recorder_overlay_black" android:hasCode="false"/>
 </manifest>

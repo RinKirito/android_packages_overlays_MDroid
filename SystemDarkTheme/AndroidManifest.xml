@@ -20,7 +20,8 @@
 
     <overlay
         android:targetPackage="android"
-        android:priority="1" />
+        android:priority="1"
+        android:category="android.theme.dark"/>
 
     <application android:label="@string/system_overlay_dark" android:hasCode="false" />
 </manifest>

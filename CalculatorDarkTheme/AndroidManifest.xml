@@ -5,7 +5,8 @@
 
     <overlay
         android:targetPackage="com.android.calculator2"
-        android:priority="1"/>
+        android:priority="1"
+        android:category="android.theme.dark"/>
 
     <application android:label="@string/calculator_overlay_dark" android:hasCode="false"/>
 </manifest>

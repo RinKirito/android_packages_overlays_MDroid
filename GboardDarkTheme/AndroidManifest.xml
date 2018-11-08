@@ -20,7 +20,8 @@
 
     <overlay
         android:targetPackage="com.google.android.inputmethod.latin"
-        android:priority="1" />
+        android:priority="1"
+        android:category="android.theme.dark"/>
 
     <application android:label="@string/gboard_overlay_dark" android:hasCode="false" />
 </manifest>

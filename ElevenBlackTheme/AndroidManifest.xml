@@ -20,7 +20,8 @@
 
     <overlay
         android:targetPackage="org.lineageos.eleven"
-        android:priority="1" />
+        android:priority="1"
+        android:category="android.theme.black"/>
 
     <application android:label="@string/eleven_overlay_black" android:hasCode="false" />
 </manifest>
