@@ -69,6 +69,12 @@
         <item name="android:colorBackground">@*android:color/black</item>
     </style>
 
+    <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">@*android:color/black</item>
+        <item name="android:colorPrimaryDark">@*android:color/black</item>
+        <item name="android:colorBackground">@*android:color/black</item>
+    </style>
+
     <style name="Theme.DeviceDefault.Light.Dialog" parent="@*android:style/Theme.Material.Dialog">
         <item name="android:windowTitleStyle">@*android:style/DialogWindowTitle.DeviceDefault</item>
         <item name="android:windowAnimationStyle">@*android:style/Animation.DeviceDefault.Dialog</item>
