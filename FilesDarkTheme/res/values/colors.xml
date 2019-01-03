@@ -20,9 +20,9 @@
     <color name="material_grey_400">#ffbdbdbd</color>
     <color name="material_teal_700">#ff00796b</color>
     <color name="item_doc_title">#ffffffff</color>
-    <color name="window_background">@*android:color/background_material_dark</color>
-    <color name="drawer_background">@*android:color/background_floating_material_dark</color>
-    <color name="directory_background">@*android:color/background_material_dark</color>
+    <color name="window_background">@*android:color/primary_material_dark</color>
+    <color name="drawer_background">@*android:color/background_material_dark</color>
+    <color name="directory_background">@*android:color/primary_material_dark</color>
     <color name="menu_search_background">@*android:color/transparent</color>
     <color name="root_activated_color">#ff1976d2</color>
     <color name="root_details_color">#ffffffff</color>
@@ -35,7 +35,7 @@
     <color name="item_doc_background_disabled">#ff1976d2</color>
     <color name="scroll_thumb">#ffffffff</color>
     <color name="scroll_track">@*android:color/button_material_dark</color>
-    <color name="item_doc_background">@*android:color/background_floating_material_dark</color>
+    <color name="item_doc_background">@*android:color/background_material_dark</color>
     <color name="item_doc_background_selected">#4d1976d2</color>
     <color name="item_breadcrumb_background_hovered">#1a555555</color>
     <color name="text_cursor">@*android:color/white</color>
@@ -55,7 +55,7 @@
     <color name="abc_search_url_text_normal">#ffffffff</color>
     <color name="abc_search_url_text_pressed">#ffffffff</color>
     <color name="abc_search_url_text_selected">#ffffffff</color>
-    <color name="drawer_border">@*android:color/background_floating_material_dark</color>
+    <color name="drawer_border">@*android:color/background_material_dark</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#33ffffff</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
