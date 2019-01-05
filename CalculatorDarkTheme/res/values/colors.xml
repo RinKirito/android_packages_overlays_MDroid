@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="display_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="display_formula_text_color">#ffffffff</color>
+    <color name="display_result_exponent_text_color">#ffffffff</color>
+    <color name="display_result_text_color">#ffffffff</color>
+    <color name="empty_history_color">@*android:color/background_material_dark</color>
+    <color name="pad_button_advanced_ripple_color">#4dffffff</color>
+    <color name="pad_button_advanced_text_color">#ffffffff</color>
+    <color name="pad_button_ripple_color">#4dffffff</color>
+    <color name="pad_button_text_color">#ffffffff</color>
+    <color name="pad_numeric_background_color">@*android:color/primary_material_dark</color>
+    <color name="pad_operator_background_color">@*android:color/background_material_dark</color>
+    <color name="secondary_text_default_material_light">#ffdddddd</color>
+</resources>
