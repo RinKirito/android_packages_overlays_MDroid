@@ -21,8 +21,7 @@
     android:layout_width="match_parent"
     android:paddingBottom="8dp"
     android:paddingLeft="8dp"
-    android:paddingTop="8dp"
-    android:background="@android:color/black">
+    android:paddingTop="8dp">
 
     <View android:id="@*com.android.calendar:id/color"
         android:layout_width="16dip"

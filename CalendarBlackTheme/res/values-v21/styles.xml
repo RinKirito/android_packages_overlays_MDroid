@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="CalendarTheme.WithActionBar" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackgroundFloating">@android:color/black</item>
         <item name="android:actionBarStyle">@*com.android.calendar:style/CalendarActionBarStyle</item>
         <item name="android:endYear">2036</item>
         <item name="android:startYear">1970</item>
