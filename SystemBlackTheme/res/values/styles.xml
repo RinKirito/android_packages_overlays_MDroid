@@ -25,6 +25,7 @@
         <item name="android:colorSecondary">@*android:color/black</item>
         <item name="android:colorControlNormal">@*android:color/accent_device_default_dark</item>
         <item name="android:textColorPrimaryInverse">@*android:color/black</item>
+        <item name="android:colorBackgroundFloating">@android:color/black</item>
     </style>
 
     <style name="Theme.Material.Settings.BaseDialog" parent="@*android:style/Theme.Material.BaseDialog">
@@ -254,5 +255,29 @@
         <item name="android:colorControlNormal">@*android:color/accent_device_default_dark</item>
         <item name="android:textColorPrimaryInverse">@*android:color/black</item>
         <item name="android:colorBackground">@*android:color/black</item>
+    </style>
+
+    <style name="Widget.Material" parent="@android:style/Widget" />
+
+    <style name="Widget.Material.TimePicker">
+        <item name="@*android:attr/timePickerMode">@*android:integer/time_picker_mode_material</item>
+        <item name="@*android:attr/legacyLayout">@*android:layout/time_picker_legacy_material</item>
+        <item name="@*android:attr/internalLayout">@*android:layout/time_picker_material</item>
+        <item name="@*android:attr/headerTextColor">@*android:color/primary_text_secondary_when_activated_material</item>  
+        <item name="@*android:attr/headerBackground">@*android:color/black</item>
+        <item name="@*android:attr/numbersTextColor">@*android:color/primary_text_inverse_when_activated_material</item>
+        <item name="@*android:attr/numbersInnerTextColor">@*android:color/secondary_text_inverse_when_activated_material</item>
+        <item name="@*android:attr/numbersSelectorColor">?android:attr/colorControlActivated</item>
+        <item name="@*android:attr/numbersBackgroundColor">@*android:color/black</item>
+        <item name="@*android:attr/amPmTextColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Widget.Material.DatePicker">
+        <item name="@*android:attr/datePickerMode">@*android:integer/date_picker_mode_material</item>
+        <item name="@*android:attr/legacyLayout">@*android:layout/date_picker_legacy_holo</item>
+        <item name="@*android:attr/calendarViewShown">true</item>
+        <item name="@*android:attr/internalLayout">@*android:layout/date_picker_material</item>
+        <item name="@*android:attr/headerTextColor">@*android:color/primary_text_secondary_when_activated_material</item>
+        <item name="@*android:attr/headerBackground">@*android:color/black</item>
     </style>
 </resources>
