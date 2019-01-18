@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- RESPONSE -->
+    <LinearLayout
+        android:id="@*com.android.calendar:id/response_row"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="64dip"
+        android:focusable="true">
+        <TextView
+            android:id="@*com.android.calendar:id/response_label"
+            android:text="@*com.android.calendar:string/view_event_response_label"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_LabelSmall" />
+        <RadioGroup
+            android:id="@*com.android.calendar:id/response_value"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:paddingTop="5dip">
+            <RadioButton
+                android:id="@*com.android.calendar:id/response_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="128dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                style="@*com.android.calendar:style/TextAppearance.EditEvent"
+                android:text="@*com.android.calendar:string/response_yes" />
+            <RadioButton
+                android:id="@*com.android.calendar:id/response_maybe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="128dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                style="@*com.android.calendar:style/TextAppearance.EditEvent"
+                android:text="@*com.android.calendar:string/response_maybe" />
+            <RadioButton
+                android:id="@*com.android.calendar:id/response_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="128dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                style="@*com.android.calendar:style/TextAppearance.EditEvent"
+                android:text="@*com.android.calendar:string/response_no" />
+        </RadioGroup>
+        <View
+            style="@*com.android.calendar:style/EditEventSeparator"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@*com.android.calendar:id/organizer_row"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dip"
+        android:focusable="true">
+        <TextView
+            android:id="@*com.android.calendar:id/organizer_label"
+            android:text="@*com.android.calendar:string/view_event_organizer_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_LabelSmall" />
+        <TextView
+            android:id="@*com.android.calendar:id/organizer"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_Value" />
+        <View
+            style="@*com.android.calendar:style/EditEventSeparator"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@*com.android.calendar:id/add_attendees_row"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dip">
+        <TextView
+            android:text="@*com.android.calendar:string/attendees_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="8dip"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_LabelSmall" />
+        <com.android.ex.chips.RecipientEditTextView
+            android:id="@*com.android.calendar:id/attendees"
+            android:layout_marginTop="2dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress|textMultiLine|textCapWords"
+            android:hint="@*com.android.calendar:string/hint_attendees"
+            android:imeOptions="actionNext"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_Value" />
+    </LinearLayout>
+
+    <View
+        style="@*com.android.calendar:style/EditEventSeparator"/>
+
+    <!-- DESCRIPTION -->
+    <LinearLayout android:id="@*com.android.calendar:id/description_row"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dip"
+        android:focusable="true">
+        <EditText
+            android:id="@*com.android.calendar:id/description"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:minHeight="48dip"
+            android:hint="@*com.android.calendar:string/hint_description"
+            android:inputType="textAutoCorrect|textCapSentences|textMultiLine"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_Value"
+            android:capitalize="sentences" />
+    </LinearLayout>
+
+    <View
+        style="@*com.android.calendar:style/EditEventSeparator"/>
+
+    <!-- REPEATS -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:focusable="true">
+        <TextView
+            android:id="@*com.android.calendar:id/repeats_label"
+            android:text="@*com.android.calendar:string/repeats_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="0dip"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_LabelSmall" />
+        <Button
+            android:id="@*com.android.calendar:id/rrule"
+            android:text="@*com.android.calendar:string/does_not_repeat"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-12dip"
+            android:gravity="left|center_vertical"
+            android:contentDescription="@*com.android.calendar:string/accessibility_pick_recurrence"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_SpinnerButton" />
+    </LinearLayout>
+
+    <View
+        style="@*com.android.calendar:style/EditEventSeparator"/>
+
+        <!-- REMINDERS -->
+    <LinearLayout
+        android:id="@*com.android.calendar:id/reminders_row"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true">
+        <TextView
+            android:id="@*com.android.calendar:id/reminders_group_label"
+            android:text="@*com.android.calendar:string/event_info_reminders_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="0dip"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_LabelSmall" />
+        <LinearLayout
+            android:id="@*com.android.calendar:id/reminder_items_container"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-8dip"
+            android:layout_marginBottom="8dip"
+            android:layout_marginRight="8dip"
+            android:orientation="vertical" />
+        <Button
+            android:id="@*com.android.calendar:id/reminder_add"
+            android:text="@*com.android.calendar:string/reminders_label"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="top"
+            android:paddingBottom="12dp"
+            android:layout_marginTop="0dip"
+            android:layout_marginBottom="0dip"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="#FF777777"
+            android:minHeight="20dip"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@*com.android.calendar:string/accessibility_add_reminder"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_LabelSmall" />
+    </LinearLayout>
+
+       <!-- PRESENCE - Show me as [busy | available] -->
+    <LinearLayout
+        android:id="@*com.android.calendar:id/availability_row"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp">
+        <TextView
+            android:id="@*com.android.calendar:id/presence_label"
+            android:text="@*com.android.calendar:string/presence_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_LabelSmall"
+            android:paddingRight="4dip" />
+        <Spinner
+            android:id="@*com.android.calendar:id/availability"
+            android:entries="@*com.android.calendar:array/availability"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_Spinner"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:popupBackground="@android:color/black"
+            android:contentDescription="@*com.android.calendar:string/accessibility_reminder_showmeas"
+            android:prompt="@*com.android.calendar:string/presence_label" />
+    </LinearLayout>
+
+        <!-- PRIVACY -->
+    <LinearLayout
+        android:id="@*com.android.calendar:id/visibility_row"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp">
+        <TextView
+            android:id="@*com.android.calendar:id/privacy_label"
+            android:text="@*com.android.calendar:string/privacy_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_LabelSmall" />
+        <Spinner
+            android:id="@*com.android.calendar:id/visibility"
+            android:entries="@*com.android.calendar:array/visibility"
+            style="@*com.android.calendar:style/TextAppearance.EditEvent_Spinner"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:popupBackground="@android:color/black"
+            android:contentDescription="@*com.android.calendar:string/accessibility_reminder_privacy"
+            android:prompt="@*com.android.calendar:string/privacy_label" />
+    </LinearLayout>
+
+</LinearLayout>
