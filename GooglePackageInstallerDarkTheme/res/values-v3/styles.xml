@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogActivity" parent="@android:style/Theme.Material.Panel">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="android:textAppearanceMedium">@android:style/TextAppearance.Medium</item>
+        <item name="android:textAppearanceSmall">@android:style/TextAppearance.Small</item>
+        <item name="android:titleTextStyle">@android:style/TextAppearance.Material.Large</item>
+    </style>
+
+    <style name="Settings.NoActionBar" parent="@android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>
