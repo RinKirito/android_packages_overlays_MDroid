@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="UnifiedEmailTheme" parent="@android:style/Theme.Material">
+        <item name="android:listViewWhiteStyle">@android:style/Widget.Material.ListView</item>
+        <item name="android:actionModeBackground">@*com.android.email:color/action_mode_background</item>
+        <item name="android:actionOverflowButtonStyle">@*com.android.email:style/ActionBarOverflowButtonStyle</item>
+        <item name="android:colorPrimary">@*com.android.email:color/primary_color</item>
+        <item name="android:colorPrimaryDark">@*com.android.email:color/primary_dark_color</item>
+        <item name="android:colorAccent">@*com.android.email:color/accent_blue</item>
+        <item name="android:colorEdgeEffect">@*com.android.email:color/edge_effect_color</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackgroundFloating">@android:color/black</item>
+    </style>
+
+    <style name="UnifiedEmailTheme.Appcompat" parent="@*com.android.email:style/Theme.AppCompat">
+        <item name="android:colorEdgeEffect">@*com.android.email:color/edge_effect_color</item>
+        <item name="@*com.android.email:attr/actionModeBackground">@*com.android.email:color/action_mode_background</item>
+        <item name="@*com.android.email:attr/homeAsUpIndicator">@*com.android.email:drawable/ic_arrow_back_wht_24dp_with_rtl</item>
+        <item name="@*com.android.email:attr/colorPrimary">@*com.android.email:color/primary_color</item>
+        <item name="@*com.android.email:attr/colorPrimaryDark">@*com.android.email:color/primary_dark_color</item>
+        <item name="@*com.android.email:attr/colorAccent">@*com.android.email:color/accent_blue</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackgroundFloating">@android:color/black</item>
+    </style>
+
+    <style name="UnifiedEmailTheme.Appcompat.Toolbar" parent="@*com.android.email:style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@*com.android.email:color/mail_activity_status_bar_color</item>
+        <item name="android:colorEdgeEffect">@*com.android.email:color/edge_effect_color</item>
+        <item name="@*com.android.email:attr/windowActionModeOverlay">true</item>
+        <item name="@*com.android.email:attr/actionBarPopupTheme">@*com.android.email:style/ThemeOverlay.AppCompat</item>
+        <item name="@*com.android.email:attr/actionModeBackground">@*com.android.email:color/action_mode_background</item>
+        <item name="@*com.android.email:attr/homeAsUpIndicator">@*com.android.email:drawable/ic_arrow_back_wht_24dp_with_rtl</item>
+        <item name="@*com.android.email:attr/colorPrimary">@*com.android.email:color/primary_color</item>
+        <item name="@*com.android.email:attr/colorPrimaryDark">@*com.android.email:color/primary_dark_color</item>
+        <item name="@*com.android.email:attr/colorAccent">@*com.android.email:color/accent_blue</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackgroundFloating">@android:color/black</item>
+    </style>
+
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ff212121</item>
+    </style>
+
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#ff757575</item>
+    </style>
+
+    <style name="Platform.V21.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorHintInverse">@*com.android.email:color/abc_hint_foreground_material_dark</item>
+        <item name="android:textColorHint">@*com.android.email:color/abc_hint_foreground_material_light</item>
+        <item name="android:textColorLink">?android:colorAccent</item>
+        <item name="android:buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="android:textColorLinkInverse">?android:colorAccent</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackgroundFloating">@android:color/black</item>
+    </style>
+
+    <style name="AccountSetupDialogActivityTheme" parent="@android:style/Theme.Material.Dialog.NoActionBar">
+        <item name="android:colorPrimary">@*com.android.email:color/primary_color</item>
+        <item name="android:colorPrimaryDark">@*com.android.email:color/primary_dark_color</item>
+        <item name="android:colorAccent">@*com.android.email:color/accent_blue</item>
+        <item name="android:colorBackground">@android:color/black</item>
+    </style>
+</resources>
