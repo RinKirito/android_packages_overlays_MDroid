@@ -17,5 +17,5 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="documentsui_overlay_dark">FilesThemeDark</string>
+    <string name="documentsui_overlay_dark">Files Dark Theme</string>
 </resources>

@@ -17,5 +17,5 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="messaging_overlay_dark">MessagingThemeDark</string>
+    <string name="messaging_overlay_dark">Messaging Dark Theme</string>
 </resources>

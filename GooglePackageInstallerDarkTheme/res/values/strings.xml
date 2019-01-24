@@ -17,5 +17,5 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="googlepackageinstaller_overlay_dark">GooglePackageInstallerThemeDark</string>
+    <string name="googlepackageinstaller_overlay_dark">GooglePackageInstaller Dark Theme</string>
 </resources>

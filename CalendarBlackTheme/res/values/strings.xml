@@ -17,5 +17,5 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="calendar_overlay_black">CalendarThemeBlack</string>
+    <string name="calendar_overlay_black">Calendar Black Theme</string>
 </resources>

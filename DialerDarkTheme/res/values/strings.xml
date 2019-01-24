@@ -17,5 +17,5 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="dialer_overlay_dark">DialerThemeDark</string>
+    <string name="dialer_overlay_dark">Dialer Dark Theme</string>
 </resources>
