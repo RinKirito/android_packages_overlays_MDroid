@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_overflow_title_color">#DEFFFFFF</color>
+    <color name="actionbar_overflow_title_disabled_color">#33FFFFFF</color>
+    <color name="station_freq_color">#FFFFFF</color>
+    <color name="station_type_color_off">#FFFFFF</color>
+</resources>

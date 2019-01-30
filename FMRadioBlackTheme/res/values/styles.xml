@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimaryDark">@*com.android.fmradio:color/theme_primarydark_color</item>
+        <item name="android:colorPrimary">@*com.android.fmradio:color/theme_primary_color</item>
+        <item name="android:windowBackground">@*com.android.fmradio:color/theme_windowBackground</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:actionOverflowButtonStyle">@*com.android.fmradio:style/FmOverflowButtonStyle</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackgroundFloating">@*android:color/black</item>
+    </style>
+
+    <style name="LightTheme" parent="@android:style/Theme.Material">
+        <item name="android:textColorPrimary">@*com.android.fmradio:color/theme_title_color</item>
+        <item name="android:colorPrimaryDark">@*com.android.fmradio:color/theme_primarydark_color</item>
+        <item name="android:colorPrimary">@*com.android.fmradio:color/theme_primary_color</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackgroundFloating">@*android:color/black</item>
+    </style>
+</resources>
