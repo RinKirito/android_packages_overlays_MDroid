@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="*org.lineageos.recorder:style/Theme.AppCompat">
+        <item name="*org.lineageos.recorder:attr/colorPrimary">@*org.lineageos.recorder:color/colorPrimary</item>
+        <item name="*org.lineageos.recorder:attr/colorPrimaryDark">@*org.lineageos.recorder:color/colorPrimaryDark</item>
+        <item name="*org.lineageos.recorder:attr/colorAccent">@*org.lineageos.recorder:color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+</resources>
